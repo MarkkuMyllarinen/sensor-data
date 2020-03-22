@@ -22,7 +22,7 @@ function SensorTable() {
 
     const columns = [{
         Header: 'Date',
-        accessor: 'date'
+        accessor: 'stringTime'
     }, {
         Header: 'Temperature',
         accessor: 'temperature',
@@ -34,7 +34,7 @@ function SensorTable() {
     return (
         <div className="App">
             <ReactTable data={listItems}
-                        columns={columns} sortable={false}
+                        columns={columns} sortable={true}
                         defaultPageSize={15}/>
         </div>
     );
