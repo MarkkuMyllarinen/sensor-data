@@ -17,7 +17,7 @@ function SensorTable() {
 
     React.useEffect(() => {
         fetchData();
-    },[]);
+    }, []);
 
 
     const columns = [{
@@ -31,11 +31,17 @@ function SensorTable() {
         accessor: 'humidity',
     }];
 
+    const defaultSorted = [{
+        id: "stringTime",
+        desc: true
+    }];
+
     return (
         <div className="App">
             <ReactTable data={listItems}
                         columns={columns} sortable={true}
-                        defaultPageSize={15}/>
+                        defaultPageSize={20}
+                        defaultSorted={defaultSorted}/>
         </div>
     );
 }

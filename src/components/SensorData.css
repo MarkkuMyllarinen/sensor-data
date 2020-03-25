@@ -1,0 +1,21 @@
+svg {
+    width: 2rem;
+}
+
+@media screen and (min-width: 980px) /* Desktop */ {
+    .Chart {
+        height: 50vh;
+        width: 50vw;
+        display: inline-block;
+
+    }
+}
+@media screen and (max-width: 500px) /* Mobile */ {
+    .Chart {
+        height: 95vh;
+        width: 95vw;
+        display: inline-block;
+
+    }
+}
+
