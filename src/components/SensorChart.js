@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {Bar, Line} from 'react-chartjs-2';
-
+import {Line} from 'react-chartjs-2';
 
 
 const options = {
@@ -34,12 +33,11 @@ const legend = {
 class SensorChart extends Component {
 
 
-
     constructor(props) {
         super(props);
         this.chartReference = React.createRef()
         this.state = {
-            data : {
+            data: {
                 labels: props.labels,
                 datasets: [
                     {

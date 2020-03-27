@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SensorChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SensorChart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SensorData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SensorData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
       <updated>1584723788768</updated>
       <workItem from="1584723790357" duration="41053000" />
       <workItem from="1585170474864" duration="2163000" />
+      <workItem from="1585334403784" duration="394000" />
     </task>
     <servers />
   </component>

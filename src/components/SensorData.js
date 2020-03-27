@@ -37,7 +37,8 @@ function SensorData() {
 
     React.useEffect(() => {
         fetchData();
-    }, []);
+    }, []); //Compiler gives warning on this?   Line 40:8:  React Hook React.useEffect has a missing dependency: 'fetchData'.
+                    //if removed chart loops few times and data just looks strange :O
 
 
     return (
