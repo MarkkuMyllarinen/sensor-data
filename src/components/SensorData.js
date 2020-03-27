@@ -30,6 +30,8 @@ function SensorData() {
                     temperature.push(responseData[i].temperature)
                 }
 
+
+
             })
     }
 

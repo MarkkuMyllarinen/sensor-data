@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Bar, Line} from 'react-chartjs-2';
 
+
+
 const options = {
     title: {
         display: true,
@@ -19,14 +21,19 @@ const options = {
 };
 
 const legend = {
+
     display: true,
     position: "bottom",
+    reverse: true,
     labels: {
         fontColor: "#323130",
         fontSize: 14
     }
 };
+
 class SensorChart extends Component {
+
+
 
     constructor(props) {
         super(props);
