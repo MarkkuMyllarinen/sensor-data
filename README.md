@@ -15,7 +15,6 @@ Front-end Heroku live demo: https://sensor-markku.herokuapp.com/data
 
 Back-end Heroku live demo: https://asema.herokuapp.com/api/sensorDatas
 
+Back-end repository https://github.com/MarkkuMyllarinen/HumidityArduinoSensor
 
-
-
-Front-end repository https://github.com/MarkkuMyllarinen/sensor-data
+Arduino repository https://github.com/MarkkuMyllarinen/Arduino-sensor
